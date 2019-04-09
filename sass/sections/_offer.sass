@@ -55,14 +55,28 @@
   .offer
     &__wrap
       background-position: top right -10000px
+      padding: 40px
   .form
     &__row
       display: flex
       flex-direction: column
       &:nth-child(2)
-        display: flex
         flex-direction: row
     &__group
       display: flex
       flex-direction: column
+    &__checkbox
+      &__wrap
+        margin-right: 0
+@media (max-width: 560px)
+  .offer
+    &__wrap
+      padding: 10px
+    &__title
+      font-size: 23px
+    &__subtitle
+      font-size: 15px
+  .form
+    &__label
+      font-size: 15px
     
