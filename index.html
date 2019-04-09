@@ -11,6 +11,29 @@
 
 <body>
   <header class="header">
+    <div class="menu">
+      <div class="container">
+        <div class="menu__nav">
+          <a href="#" class="menu__link">Главная </a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">Продукция</a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">Каталог</a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">Примеры работ</a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">Примерка изображений</a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">Стоимость дилерам</a>
+          <!-- /.menu__link -->
+          <a href="#" class="menu__link">О скинали</a>
+          <!-- /.menu__link -->
+        </div>
+        <!-- /.menu__nav -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.menu -->
     <div class="navbar">
       <div class="container">
         <div class="navbar-wrap">
@@ -24,19 +47,22 @@
           </button>
           <!-- /.menu-button -->
           <div class="logo navbar__logo">
-            <strong class="navbar__logo__text">Фабрика скинали №1</strong>
+            <strong class="logo__text">Фабрика скинали №1</strong>
             <!-- /.logo__text -->
-            <span class="navbar__logo__description">ведущий производитель скинали</span> <!-- /.logo__description -->
+            <span class="logo__description">ведущий производитель скинали</span> <!-- /.logo__description -->
           </div>
           <!-- /.logo navbar__logo -->
           <div class="navbar__mobile">
             <a href="tel:+79121234567" class="navbar__phone">+7 912 123-45-67</a> <!-- /.navbar__phone -->
-            <span class="navbar__info">без выходных 9-21</span> <!-- /.navbar__work-time -->
+            <span class="navbar__info">без выходных 9-21</span>
+            <!-- /.navbar__info -->
           </div>
           <!-- /.navbar__mobile -->
           <div class="navbar__mobile">
-            <a href="tel:+74991234567" class="navbar__phone">+7 499 123-45-67</a> <!-- /.navbar__phone -->
-            <a href="mailto:info@mail.cu" class="navbar__info mail">info@mail.cu</a> <!-- /.navbar__email -->
+            <a href="tel:+74991234567" class="navbar__phone">+7 499 123-45-67</a>
+            <!-- /.navbar__phone -->
+            <a href="mailto:info@mail.cu" class="navbar__info mail">info@mail.cu</a>
+            <!-- /.navbar__info -->
           </div>
           <!-- /.navbar__landline -->
           <button class="button-o navbar__button">Получить консультацию</button>
@@ -46,8 +72,67 @@
       <!-- /.container -->
     </div>
     <!-- /.navbar -->
+    <div class="hero">
+      <div class="container">
+        <h1 class="hero__title">Гарантия <br>минимальной цены<br>на скинали</h1>
+        <!-- /.hero__title -->
+        <span class="hero__subtitle">от 3 000 р/м2</span>
+        <!-- /.hero__subtitle -->
+        <button class="button hero__button">Заказать скинали</button>
+        <!-- /.button hero__button -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.hero -->
   </header>
   <!-- /.header -->
+  <section class="main">
+    
+      <div class="offer">
+        <div class="container">
+        <div class="offer__wrap">
+          <h1 class="offer__title">Оставьте заявку на расчет</h1>
+          <!-- /.offer__title -->
+          <span class="offer__subtitle">и получите скидку 30% на изготовление скинали или фартука для кухни</span>
+          <!-- /.offer__subtitle -->
+          <form action="" class="offer__form form">
+            <div class="form__row">
+              <div class="form__group">
+                <label for="" class="form__label">Вид стекла</label> <!-- /.form__label -->
+                <input type="text" class="form__input" placeholder="С печатью">
+              </div>
+              <div class="form__group">
+                <label for="" class="form__label">Ширина, см </label> <!-- /.form__label -->
+                <input type="text" class="form__input"></div>
+              <div class="form__group">
+                <label for="" class="form__label">Высота, см </label> <!-- /.form__label -->
+                <input type="text" class="form__input">
+              </div>
+            </div>
+            <!-- /.form__row -->
+            <div class="form__row">
+              <div class="form__checkbox__wrap">
+                <input type="checkbox" class="form__checkbox" id="#install">
+                <label for="install" class="form__label form__checkbox__label">Монтаж</label>
+              </div>
+              <div class="form__checkbox__wrap">
+                <input type="checkbox" class="form__checkbox" id="#delivery">
+                <label for="delivery" class="form__label form__checkbox__label">Доставка</label>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__group"><input type="text" class="form__input" placeholder="Ваш телефон"></div>
+              <div class="form__group"><input type="text" class="form__input" placeholder="Ваше имя"></div>
+              <div class="form__group"><button class="form__input button">Получить скидку</button></div>
+            </div>
+          </form>
+          <!-- /.offer__form -->
+        </div>
+        </div>
+      </div>
+      <!-- /.offer -->
+    
+  </section>
+  <!-- /.main -->
 </body>
 
-</html>

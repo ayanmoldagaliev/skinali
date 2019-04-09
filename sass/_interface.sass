@@ -1,3 +1,6 @@
+*
+  margin: 0
+  padding: 0
 body
   +light
 a
@@ -5,9 +8,19 @@ a
 button
   &:focus
     outline: none
+.input
+  height: 80px
+  padding: 30px
+  border: 1px solid #dddddd
 .button
+  boder: none
+  text-transform: uppercase
+  padding: 25px 45px
+  background-color: $primary
+  color: #fff
   &-o
     background-color: #fff
     padding: 18px 22px
-    color: #507fe1
+    border: 2px solid $primary
+    color: $primary
     
